@@ -1,7 +1,95 @@
-#EstructuraGeneral 
-{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
 }
-.TituloPrincipal {
-    color: blue;
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 2px solid #004173;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #004173;
+}
+
+.info h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #004173;
+}
+
+.info h3 {
+    margin: 5px 0;
+    color: #3A628E;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #004173;
+    border-bottom: 2px solid #D88D00;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    color: #3A628E;
+    margin: 0;
+}
+
+.job span {
+    font-size: 14px;
+    color: #555;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.productos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.productos th, .productos td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.productos th {
+    background-color: #004173;
+    color: #fff;
+}
+
+.productos tfoot td {
+    font-weight: bold;
+    background-color: #f0f0f0;
 }
